@@ -41,15 +41,13 @@ button {
   color: white;
   border: 1px;
   text-align: center;
-  width: 79px;
+  width: 60px;
   height: 10px
   text-decoration: none;
   border-radius: 12px;
-  display: flex;
   margin: 2px 0px;
   cursor: pointer;
   line-height: 14px;
-  display: grid;
 }
 
 .sidenav {
@@ -96,6 +94,21 @@ h3 {
   font-weight: 400;
   font-size: 12px;
   margin-bottom: 10px;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  display: center
+  font-size: 12px;
+}
+
+/* border */
+
+hr.solid {
+  color: #ebebeb;
+  border-style: solid;
+  border-width: 0.5px;
 }
 
 /* img */
