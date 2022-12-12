@@ -18,16 +18,14 @@ html {
 body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1;
-  background-color: #f0f0f0;
+  background-color: #ebebeb;
   color: #000000;
   margin: auto;
   max-width: 640px;
   padding: 32px;
   position: relative;
-  /*text-rendering: optimizeLegibility;*/
-  -webkit-font-smoothing: antialiased;
 }
 
 section {
@@ -35,8 +33,6 @@ section {
   display: center;
   font-family: "Inter";
   display: block;
-  font-weight: 400;
-  margin-top: 30px;
   margin-bottom: 30px;
   line-height: 150%;
 }
@@ -46,19 +42,9 @@ section {
 header {
   white-space: nowrap;
   display: block;
-  font-weight: 400;
   font-size: 16px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   margin-right: 10vh;
-}
-
-h1,
-nav {
-  font-family: "Inter";
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 1.2;
-  margin: 10px 0px 0px 0px;
 }
 
 h1 {
@@ -76,6 +62,35 @@ h3 {
   font-size: 16px;
 }
 
+mark {
+  font-family: "Inter";
+  font-size: 14px;
+  display: inline;
+  border-radius: 4px;
+  padding: 1px 3px;
+  color: #444444;
+}
+
+.yellow {  
+  background: #FCEED5;
+}
+
+.blue {
+  background: #CCE4F8;
+}
+
+.red {
+  background: #FFCDD4;
+}
+
+.date {
+  font-size: 12px;
+}
+
+li {
+  list-style-type: circle;
+}
+
 /* footer */
 footer {
   font-size: 12px;
@@ -87,7 +102,7 @@ footer {
 /* border */
 
 hr.solid {
-  color: #ebebeb;
+  color: #d6d6d6;
   border-style: solid;
   border-width: 0.5px;
 }
@@ -106,46 +121,37 @@ img {
 
 a {
   font-family: "Inter";
-  font-weight: 500;
   text-decoration: underline;
   cursor: pointer;
   color: #606060;
-}
-
-.name {
-  white-space: nowrap;
-  display: block;
-  font-weight: 400;
-  font-size: 14px;
-  margin-bottom: 10px;
-  color: ffffff;
-  text-decoration: none;
-}
-
-.back {
-  font-size: 12px;
-  margin-right: 6px;
-  color: #606060;
+  display: inline;
+  border-radius: 4px;
+  padding: 1px 3px;
 }
 
 a:hover {
   text-decoration: none;
   color: #929292;
-  text-decoration: underline;
 }
 
-button:hover {
+.header {
+  font-size: 12px;
+  margin-right: 6px;
+  color: #606060;
   text-decoration: none;
-  background-color: #606060;
-  te
+  border-radius: 0px;
+  padding: 0px 0px;
+}
+
+.footer {
+  font-size: 12px;
+  margin-right: 6px;
+  color: #606060;
 }
 
 /* Phone view */
 
 @media (max-width: 600px) {
-  section {
-    display: block;
-  }
   img {
     height: 95%;
     margin-top: 10px;
