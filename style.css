@@ -29,7 +29,6 @@ body {
 }
 
 section {
-  font-size: 14px;
   display: center;
   font-family: "Inter";
   display: block;
@@ -88,7 +87,12 @@ mark {
 }
 
 li {
-  list-style-type: circle;
+  list-style-type: dot;
+}
+
+small{
+  color: #606060;
+  font-size:12px;
 }
 
 /* footer */
