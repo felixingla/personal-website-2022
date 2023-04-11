@@ -20,7 +20,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1;
-  background-color: #ebebeb;
+  background-color: #FFF7E0;
   color: #000000;
   margin: auto;
   max-width: 640px;
@@ -34,6 +34,13 @@ section {
   display: block;
   margin-bottom: 30px;
   line-height: 150%;
+}
+
+.cigar-box {
+  max-width: 320px;
+  margin-bottom: 100px ;
+  font-size: 12px;
+  color: #606060;
 }
 
 /* header, h1, h2, h3 */
@@ -59,6 +66,12 @@ h2 {
 h3 {
   font-family: "Inter";
   font-size: 16px;
+}
+
+h6 {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400px;
 }
 
 mark {
@@ -114,11 +127,12 @@ hr.solid {
 /* img */
 
 img {    
-    /* height: 75vh; */
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
+    box-shadow: 0px 0px 12.5px rgba(0, 0, 0, 0.25);
+    border-radius: 2.5px;
 }
 
 /* Links */
